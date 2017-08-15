@@ -11,9 +11,9 @@ void main()
 		meot = num1 / 100;
 		asarot = num1 % 100 / 10;
 		ahadot = num1 % 10;
-		sum1 = sum1 + (num1 / 100);
-		sum2 = sum2 + (num1 % 100 / 10);
-		sum3 = sum3 + (num1 % 10);
+		sum1 = sum1 + meot;
+		sum2 = sum2 + asarot;
+		sum3 = sum3 + ahadot;
 	}
 
 	if (sum1 > sum2&&sum2 > sum3)
