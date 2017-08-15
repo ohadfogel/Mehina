@@ -3,7 +3,6 @@
 void main()
 {
 	int sum1=0,sum2=0, sum3=0;
-	for (int i = 0; i < 30; i++)
 	{
 		int num1, meot, asarot, ahadot;
 		printf("please enter a number with 3 digits: ");
@@ -18,25 +17,25 @@ void main()
 
 	if (sum1 > sum2&&sum2 > sum3)
 	{
-		printf("meot:""%d\n""asarot:%d\nahadot:%d\n", sum1, sum2, sum3);
+		printf("meot:%d\nasarot:%d\nahadot:%d\n", sum1, sum2, sum3);
 	}
 	else if(sum1>sum2&&sum2<sum3)
 	{
 
-		printf("meot:""%d\n""ahadot:%d\nasarot:%d\n", sum1, sum3, sum2);
+		printf("meot:%d\nahadot:%d\nasarot:%d\n", sum1, sum3, sum2);
 	}
 	else if (sum2>sum3&&sum1<sum3)
 	{
 
-		printf("asarot:""%d\n""ahadot:%d\nmeot:%d\n", sum2, sum3, sum1);
+		printf("asarot:%d\nahadot:%d\nmeot:%d\n", sum2, sum3, sum1);
 	}
 	else if (sum2 > sum3&&sum1 > sum3)
 	{
-		printf("asarot:""%d\n""meot:%d\nahadot:%d\n", sum2, sum1, sum3);
+		printf("asarot:%d\nmeot:%d\nahadot:%d\n", sum2, sum1, sum3);
 	}
 	else 
 	{
 
-		printf("ahadot:""%d\n""asarot:%d\nmeot:%d\n", sum3, sum2, sum1);
+		printf("ahadot:%d\nasarot:%d\nmeot:%d\n", sum3, sum2, sum1);
 	}
 }
