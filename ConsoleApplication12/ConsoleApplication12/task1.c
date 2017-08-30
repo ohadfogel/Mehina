@@ -3,6 +3,7 @@
 void main()
 {
 	int sum1=0,sum2=0, sum3=0;
+	for (int i = 0; i < 3; i++)
 	{
 		int num1, meot, asarot, ahadot;
 		printf("please enter a number with 3 digits: ");
@@ -21,21 +22,27 @@ void main()
 	}
 	else if(sum1>sum2&&sum2<sum3)
 	{
-
 		printf("meot:%d\nahadot:%d\nasarot:%d\n", sum1, sum3, sum2);
 	}
 	else if (sum2>sum3&&sum1<sum3)
 	{
-
 		printf("asarot:%d\nahadot:%d\nmeot:%d\n", sum2, sum3, sum1);
 	}
 	else if (sum2 > sum3&&sum1 > sum3)
 	{
 		printf("asarot:%d\nmeot:%d\nahadot:%d\n", sum2, sum1, sum3);
 	}
+	else if (sum3 > sum2&&sum1 > sum2)
+	{
+		printf("ahadot:%d\nmeot:%d\nasarot:%d\n", sum3, sum1, sum2);
+	}
 	else 
 	{
-
 		printf("ahadot:%d\nasarot:%d\nmeot:%d\n", sum3, sum2, sum1);
 	}
+	
+
+
+
+
 }
