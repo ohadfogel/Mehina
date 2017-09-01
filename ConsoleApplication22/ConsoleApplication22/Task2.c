@@ -23,7 +23,7 @@ void main()
 		printf("please enter a number smaller then the first number you choose: ");
 		scanf("%d", &num);
 		sum_digits(mispar, num);
-		printf("the number is %d\nthe second number is: %d\nthe resalut is:%d\n", mispar, num, sum_digits(mispar, num));
+		printf("the number is %d\nthe number of digit to sum is: %d\nthe resalut is:%d\n", mispar, num, sum_digits(mispar, num));
 
 
 	} while (mispar != -1 && num != -1);
